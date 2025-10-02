@@ -5,14 +5,14 @@
 Submit a PR that adds a new file to the [constants/additionalChainRegistry folder](https://github.com/DefiLlama/chainlist/tree/main/constants/additionalChainRegistry). The new file should be named `chainid-{chainid_number}.js` and the contents should follow this structure:
 ```
 {
-  "name": "Ethereum Mainnet",
+  "name": "World Chain"
   "chain": "ETH",
   "rpc": [
-    "https://eth.llamarpc.com",
+    https://worldchain-mainnet.g.alchemy.com/public
   ],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Ether",
+    "name": "World Chain",
     "symbol": "ETH",
     "decimals": 18
   },
